@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All the World's a Stage | 5th Anniversary | 2025 Genshin Birthday Party</title>
+    <!-- Tailwind CSS v3 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- 配置Tailwind自定义颜色 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#7D5FFF', // 紫色作为主色调
+                        secondary: '#FFF0F5', // 浅粉色作为辅助色
+                        accent: '#FF6B6B', // 强调色
+                        dark: '#2D3436', // 深色文本
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'Noto Serif SC', 'serif'],
+                        sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <!-- 自定义工具类 -->
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+            .text-glow {
+                text-shadow: 0 0 10px rgba(125, 95, 255, 0.5), 0 0 20px rgba(125, 95, 255, 0.3);
+            }
+            .animate-fade-in {
+                animation: fadeIn 1.5s ease-in-out;
+            }
+            .animate-slide-up {
+                animation: slideUp 1s ease-out;
+            }
+            .animate-pulse-slow {
+                animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans bg-gradient-to-b from-slate-50 to-slate-100 min-h-screen">
+    <!-- 导航栏 -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200 shadow-sm">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-primary font-serif font-bold text-xl tracking-wide">
+                All the World's a Stage
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main class="container mx-auto px-4 pt-24 pb-16">
+        <!-- Hero 区域 -->
+        <section id="hero" class="relative mb-16">
+            <div class="relative overflow-hidden rounded-2xl shadow-2xl group">
+                <img 
+                    src="pic.png" 
+                    alt="All the World's a Stage | 5th Anniversary | 2025 Genshin Birthday Party" 
+                    class="w-full h-[60vh] object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-in-out"
+                >
+                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex flex-col justify-end p-8 md:p-12">
+                    <h1 class="text-[clamp(1.8rem,5vw,3.5rem)] font-serif font-bold text-white text-shadow animate-fade-in mb-4">
+                        All the World's a Stage
+                    </h1>
+                    <p class="text-[clamp(1.2rem,3vw,2rem)] font-serif text-white/90 text-shadow animate-slide-up mt-2">
+                        5th Anniversary | 2025 Genshin Birthday Party
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 诗文区域 -->
+        <section id="poem" class="mb-16">
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8 md:p-12 transform transition-all hover:shadow-xl">
+                <!-- 中文部分 -->
+                <div class="mb-12 animate-fade-in" style="animation-delay: 0.3s;">
+                    <blockquote class="text-[clamp(1.5rem,4vw,2.5rem)] font-serif font-medium text-dark mb-6 text-center">
+                        「戲如人生。」
+                    </blockquote>
+                    <p class="text-center text-lg text-slate-600 mb-8">
+                        ——威廉·莎士比亞，《皆大歡喜》第二幕第七景
+                    </p>
+                    
+                    <div class="space-y-4 font-serif text-[clamp(1.1rem,2vw,1.3rem)] text-slate-700 leading-relaxed">
+                        <p class="first-letter:text-3xl first-letter:font-bold first-letter:text-primary first-letter:mr-1 first-letter:float-left">
+                            若吾目所及，唯無盡鋪展之影卷——<br>
+                            「人間八苦，豈命運偶成之悲劇，抑眾生甘願粉墨之演乎？」
+                        </p>
+                        <p>
+                            吾等持傳聲之器，負攝影之機，徜徉諸世舞台，<br>
+                            錄魂靈掙扎狂歡於無窮時序。
+                        </p>
+                        <p>
+                            影卷旋而世局易，吾輩恆並肩。<br>
+                            無論鏡中鏡外，吾——雙生——從未言「終」。
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- 分隔线 -->
+                <div class="flex items-center justify-center my-8">
+                    <div class="h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent w-full max-w-md"></div>
+                    <div class="mx-4 text-primary">
+                        <i class="fa fa-star animate-pulse-slow"></i>
+                    </div>
+                    <div class="h-px bg-gradient-to-l from-transparent via-primary/50 to-transparent w-full max-w-md"></div>
+                </div>
+                
+                <!-- 英文部分 -->
+                <div class="animate-fade-in" style="animation-delay: 0.6s;">
+                    <blockquote class="text-[clamp(1.5rem,4vw,2.5rem)] font-serif font-medium text-dark mb-6 text-center italic">
+                        "All the world's a stage."
+                    </blockquote>
+                    <p class="text-center text-lg text-slate-600 mb-8">
+                        — William Shakespeare, As You Like It, Act II, Scene VII
+                    </p>
+                    
+                    <div class="space-y-4 font-serif text-[clamp(1.1rem,2vw,1.3rem)] text-slate-700 leading-relaxed italic">
+                        <p>
+                            If all we see is but an endlessly unfolding film—<br>
+                            "Are the Eight Sufferings of the mortal world a tragedy improvised by fate,<br>
+                            or a performance in which all souls willingly play their part?"
+                        </p>
+                        <p>
+                            We wander across the stages,<br>
+                            megaphones in hand, cameras on our shoulders,<br>
+                            capturing the struggles and revelry of souls across countless timelines.
+                        </p>
+                        <p>
+                            As the reels spin and the worlds shift,<br>
+                            we remain side by side.<br>
+                            Within the frame or beyond it, we—the Twins—never call it a wrap.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+    <iframe src="https://www.youtube.com/embed/ufMGRxFIzO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+    <!-- JavaScript -->
+    <script>
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // 滚动时导航栏样式变化
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (nav) {
+                if (window.scrollY > 50) {
+                    nav.classList.add('py-2', 'shadow');
+                    nav.classList.remove('py-3');
+                } else {
+                    nav.classList.add('py-3');
+                    nav.classList.remove('py-2', 'shadow');
+                }
+            }
+        });
+        
+        // 页面加载动画效果
+        document.addEventListener('DOMContentLoaded', function() {
+            // 为所有具有动画类的元素添加延迟
+            const animatedElements = document.querySelectorAll('.animate-fade-in, .animate-slide-up');
+            animatedElements.forEach((element, index) => {
+                element.style.animationDelay = (index * 0.2) + 's';
+            });
+        });
+    </script>
+</body>
+</html>

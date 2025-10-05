@@ -29,7 +29,9 @@
 𝐖𝐢𝐭𝐡𝐢𝐧 𝐭𝐡𝐞 𝐟𝐫𝐚𝐦𝐞 𝐨𝐫 𝐛𝐞𝐲𝐨𝐧𝐝 𝐢𝐭, 𝐰𝐞—𝐭𝐡𝐞 𝐓𝐰𝐢𝐧𝐬—𝐧𝐞𝐯𝐞𝐫 𝐜𝐚𝐥𝐥 𝐢𝐭 𝐚 𝐰𝐫𝐚𝐩.
 
 {% raw %}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ufMGRxFIzO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
+    <iframe src="https://www.youtube.com/embed/ufMGRxFIzO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
 {% endraw %}
 
 <video src="video.mkv" controls></video>
